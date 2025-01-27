@@ -39,4 +39,24 @@ dialog#lightbox {
     pointer-events: none;
     margin-left: -50px;
   }
+  .arrow {
+    background: transparent;
+    color: rgba(144, 28, 28, 1);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    pointer-events: all;
+    font-size: 50px;
+  }
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    margin-left: 1000px;
+    color: rgba(144, 28, 28, 1);
+    font-size: 50px;
+    border: none;
+    background: transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
   
