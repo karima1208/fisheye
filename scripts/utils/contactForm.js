@@ -17,7 +17,7 @@ function closeModal() {
   dialog.setAttribute("aria-modal", "false");
   contactButton.focus();
 }
-
+//Soumission du formulaire
 function submitform(event) {
   event.preventDefault();
   const firstname = document.getElementById("first-name").value;
@@ -37,6 +37,7 @@ function submitform(event) {
     console.log("Formulaire validé");
   } else {
     console.error("Formulaire non validé");
+    // La modal reste ouverte en cas d'erreur
   }
 }
 
